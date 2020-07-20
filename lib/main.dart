@@ -1,4 +1,5 @@
-import 'package:carwashapp/setup/signIn.dart';
+import 'package:carwashapp/pages/setup/signIn.dart';
+import 'package:carwashapp/pages/setup/welcome.dart';
 import 'package:flutter/material.dart';
 void main() => runApp( MyApp());
 class MyApp extends StatelessWidget {
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
       theme:  ThemeData(
         primarySwatch: Colors.blue
       ),
-      home:  LoginPage(),
+      home:  WelcomePage(),
     );
   }
 }
